@@ -1,0 +1,9 @@
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcoreapp3.1\HotChocolate.App.deps.json
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcoreapp3.1\HotChocolate.App.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.AssemblyInfoInputs.cache
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.AssemblyInfo.cs
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcoreapp3.1\HotChocolate.App.pdb
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csprojAssemblyReference.cache
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.pdb
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csproj.CoreCompileInputs.cache

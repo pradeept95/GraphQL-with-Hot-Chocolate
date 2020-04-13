@@ -8,4 +8,12 @@
     <PackageReference Include="HotChocolate.AspNetCore" Version="10.4.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Data\Application.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Schema\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\bin\Debug\netcoreapp3.1\Application.Data.deps.json
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\bin\Debug\netcoreapp3.1\Application.Data.runtimeconfig.json
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\bin\Debug\netcoreapp3.1\Application.Data.runtimeconfig.dev.json
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\bin\Debug\netcoreapp3.1\Application.Data.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\bin\Debug\netcoreapp3.1\Application.Data.pdb
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.csprojAssemblyReference.cache
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.csproj.CoreCompileInputs.cache
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.AssemblyInfoInputs.cache
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.AssemblyInfo.cs
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.pdb
+C:\Users\prade\source\repos\HotChocolate.Demo\Application.Data\obj\Debug\netcoreapp3.1\Application.Data.genruntimeconfig.cache

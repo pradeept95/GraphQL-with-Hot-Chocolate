@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolate.App", "HotChoc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{5FEBF60F-C745-4BB4-9F65-A7AA9621949D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Data", "Application.Data\Application.Data.csproj", "{8671C173-34C0-404D-9480-3F79EA0045B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5FEBF60F-C745-4BB4-9F65-A7AA9621949D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEBF60F-C745-4BB4-9F65-A7AA9621949D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEBF60F-C745-4BB4-9F65-A7AA9621949D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8671C173-34C0-404D-9480-3F79EA0045B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8671C173-34C0-404D-9480-3F79EA0045B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8671C173-34C0-404D-9480-3F79EA0045B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8671C173-34C0-404D-9480-3F79EA0045B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

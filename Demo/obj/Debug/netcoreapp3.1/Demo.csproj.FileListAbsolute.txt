@@ -70,3 +70,8 @@ C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\runti
 C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\Application.Data.dll
 C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\Application.Data.pdb
+C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\HotChocolate.AspNetCore.Playground.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\HotChocolate.AspNetCore.Voyager.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\HotChocolate.Subscriptions.InMemory.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\HotChocolate.Types.Filters.dll
+C:\Users\prade\source\repos\HotChocolate.Demo\Demo\bin\Debug\netcoreapp3.1\HotChocolate.Types.Sorting.dll

@@ -6,7 +6,7 @@ C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcore
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csprojAssemblyReference.cache
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.dll
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.pdb
-C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csproj.CoreCompileInputs.cache
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcoreapp3.1\Application.Data.dll
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\bin\Debug\netcoreapp3.1\Application.Data.pdb
 C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csproj.CopyComplete
+C:\Users\prade\source\repos\HotChocolate.Demo\HotChocolate.App\obj\Debug\netcoreapp3.1\HotChocolate.App.csproj.CoreCompileInputs.cache

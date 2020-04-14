@@ -181,6 +181,30 @@
             "HotChocolate.AspNetCore": {
               "target": "Package",
               "version": "[10.4.1, )"
+            },
+            "HotChocolate.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[10.4.1, )"
+            },
+            "HotChocolate.AspNetCore.Playground": {
+              "target": "Package",
+              "version": "[10.4.1, )"
+            },
+            "HotChocolate.AspNetCore.Voyager": {
+              "target": "Package",
+              "version": "[10.4.1, )"
+            },
+            "HotChocolate.Subscriptions.InMemory": {
+              "target": "Package",
+              "version": "[10.4.1, )"
+            },
+            "HotChocolate.Types.Filters": {
+              "target": "Package",
+              "version": "[10.4.1, )"
+            },
+            "HotChocolate.Types.Sorting": {
+              "target": "Package",
+              "version": "[10.4.1, )"
             }
           },
           "imports": [

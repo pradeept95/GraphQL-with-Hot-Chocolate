@@ -1,8 +1,8 @@
 ﻿using HotChocolate.App.Type;
+using HotChocolate.AspNetCore;
+using HotChocolate.AspNetCore.Voyager;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HotChocolate.App.Configuration
 {
@@ -14,7 +14,16 @@ namespace HotChocolate.App.Configuration
               SchemaBuilder.New()
                   .AddQueryType<AppQueryType>());
 
+            
             return services;
+        }
+
+        public static IApplicationBuilder UseAppGraphQL(this IApplicationBuilder app)
+        {
+           app.UseGraphQL()
+              .UsePlayground()
+              .UseVoyager();
+            return app;
         }
     }
 }

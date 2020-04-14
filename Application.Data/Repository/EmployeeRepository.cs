@@ -23,6 +23,8 @@ namespace Application.Data.Repository
         {
             var result = _db.Employee
                 .Include(x => x.Addresses)
+                .Include(x => x.Phones)
+                .Include(x => x.EmailAddresses)
                 .AsQueryable();
             return await Task.FromResult(result);
         }
@@ -30,6 +32,21 @@ namespace Application.Data.Repository
         public async Task<Employee> GetById(int id)
         {
             return await Task.FromResult(_db.Employee.FirstOrDefault(x => x.Id == id));
+        }
+
+        public async Task<Employee> Create(Employee employee)
+        {
+            try
+            {
+                var result = _db.Add(employee);
+                await _db.SaveChangesAsync();
+                return await Task.FromResult(result.Entity);
+            }
+            catch (Exception ex)
+            { 
+                throw ex;
+            }
+          
         }
     }
 }

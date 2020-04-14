@@ -15,17 +15,13 @@ namespace HotChocolate.App.Type
         protected override void Configure(IObjectTypeDescriptor<Query> descriptor)
         {
             descriptor
-                .Field(f => f.GetEmployees()) 
+                .Field(f => f.GetEmployees())
                 .Description("Return all the list of an employee");
         }
     }
 
-    public class QueryBase
-    {
 
-    }
-
-    public partial class Query : QueryBase
+    public partial class Query
     {
         private readonly IEmployeeRepository _employeeRepository;
 
@@ -44,12 +40,13 @@ namespace HotChocolate.App.Type
         {
             return await _employeeRepository.GetList();
 
-        } 
-    }
+        }
 
-    public partial class Query : QueryBase 
-    {
-        public string Hello() => "World from Pradeep";
+        public async Task<Employee> Employee(int id)
+        {
+            return await _employeeRepository.GetById(id);
+
+        }
     }
 
 }

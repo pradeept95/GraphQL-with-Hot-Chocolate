@@ -6,6 +6,7 @@ namespace Application.Data.Repository
 {
     public interface IEmployeeRepository
     {
+        Task<Employee> Create(Employee employee);
         Task<Employee> GetById(int id);
         Task<IQueryable<Employee>> GetList();
     }

@@ -13,6 +13,7 @@ namespace HotChocolate.App.Configuration
             services.AddGraphQL(
               SchemaBuilder.New()
                   .AddQueryType<AppQueryType>()
+                  .AddMutationType<AppMutationType>()
                   //.AddQueryType<EmployeeQueryType>()
                   );
 

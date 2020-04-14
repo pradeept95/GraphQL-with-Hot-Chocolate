@@ -12,17 +12,19 @@ namespace HotChocolate.App.Configuration
         {
             services.AddGraphQL(
               SchemaBuilder.New()
-                  .AddQueryType<AppQueryType>());
+                  .AddQueryType<AppQueryType>()
+                  //.AddQueryType<EmployeeQueryType>()
+                  );
 
-            
+
             return services;
         }
 
         public static IApplicationBuilder UseAppGraphQL(this IApplicationBuilder app)
         {
-           app.UseGraphQL()
-              .UsePlayground()
-              .UseVoyager();
+            app.UseGraphQL()
+               .UsePlayground()
+               .UseVoyager();
             return app;
         }
     }

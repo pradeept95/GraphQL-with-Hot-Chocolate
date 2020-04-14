@@ -1,8 +1,12 @@
-﻿using HotChocolate.Types;
+﻿using Application.Data.Model;
+using Application.Data.Repository;
+using HotChocolate.Types;
 using HotChocolate.Types.Relay;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HotChocolate.App.Type
 {
@@ -10,33 +14,42 @@ namespace HotChocolate.App.Type
     {
         protected override void Configure(IObjectTypeDescriptor<Query> descriptor)
         {
-            descriptor.Field(f => f.Hello()).Type<NonNullType<StringType>>();
-            descriptor.Field("foo").Type<StringType>().Resolver(() => "bar");
-            descriptor.Field("stringList")
-                .Type<ListType<StringType>>()
-                //.UsePaging<ListType<StringType>>()
-                //.UseFiltering()
-                //.UseSorting()
-                .Resolver(() => {
-                    return new Query().GetStringList();
-                 })
-                ; 
+            descriptor
+                .Field(f => f.GetEmployees()) 
+                .Description("Return all the list of an employee");
         }
     }
 
-    public class Query
+    public class QueryBase
+    {
+
+    }
+
+    public partial class Query : QueryBase
+    {
+        private readonly IEmployeeRepository _employeeRepository;
+
+        public Query(IEmployeeRepository employeeRepository)
+        {
+            this._employeeRepository = employeeRepository;
+        }
+
+        //Here order is important! 
+        //Pageing -> Filtering -> Sorting -> Field Resolver
+
+        [UsePaging]
+        [UseFiltering]
+        [UseSorting]
+        public async Task<IQueryable<Employee>> GetEmployees()
+        {
+            return await _employeeRepository.GetList();
+
+        } 
+    }
+
+    public partial class Query : QueryBase 
     {
         public string Hello() => "World from Pradeep";
-
-        public List<string> GetStringList()
-        {
-            return new List<string> 
-            { 
-                "Pradeep",
-                "Raj",
-                "Thapaliya"
-            };
-
-        }
     }
+
 }
